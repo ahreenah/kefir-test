@@ -1,5 +1,23 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*/
+
+@font-face {
+  font-family: "lato";   /*Can be any text*/
+  src: local("Lato"),
+    url("./assets/fonts/Lato.ttf") format("truetype");
+}
+
 .App {
-    text-align: center;
+  font-family: Lato;  
+}
+
+body{
+  background:url("assets/bg.png");
+  background-color: black;
+  background-position:center center;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .App-logo {
@@ -18,8 +36,6 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
 }
